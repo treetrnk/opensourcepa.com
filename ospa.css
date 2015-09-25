@@ -1,0 +1,143 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Helvetica, Trebuchet MS, sans-serif;
+	font-size: 13pt;
+	color: #424242;
+	line-height: 25px;
+}		
+div.navbar {
+	background: #424242;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+a.navbar:active, a.navbar:link, a.navbar:visited {
+	padding: 10px;
+	color: #FFFFFF;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 12pt;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.navbar:hover {
+	paddding: 10px;
+	color: #00AEFF;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 12pt;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active, a:link, a:visited {
+	color: #005D88;
+	text-decoration: underline;
+}
+a:hover {
+	color: #00AEFF;
+	text-decoration: underline;
+}
+a.bnavbar:active, a.bnavbar:link, a.bnavbar:visited {
+	padding: 10px;
+	color: #424242;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 10pt;
+	text-decoration: none;
+}
+a.bnavbar:hover {
+	paddding: 10px;
+	color: #00AEFF;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.content {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width:1px;
+	border-style:solid;
+	border-color: #424242;
+	width: 950px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.slides {
+	width: 550px;
+	display: none;
+	padding: 0px;
+	position: absolute;
+}
+.slidetxt {
+	background: #424242;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
+	position: absolute;
+	top:400px;		
+	color: #FFFFFF; 
+	max-width: 400px;
+	font-size: 18pt;
+	font-weight: bold;
+	display: none;
+}
+.serviceslides {
+	width: 300px;
+	display: none;
+	padding: 0px;
+}
+.slideswitch {
+	font-size: 24pt;
+	cursor: pointer;
+}
+img.active {
+	display: block;
+}
+.active2 {
+	display: block;
+}
+span.active {
+	color: #00AEFF;
+	text-shadow: 1px 1px #424242;
+}
+p {
+	padding: 5px;
+}
+.header_grey {
+	font-family: Arial Black;
+	font-size: 50pt;
+	text-decoration: none;
+	color: #424242;
+}
+.header_blue {
+	font-family: Arial Black;
+	font-size: 50pt;
+	text-decoration: none;
+	color: #00AEFF;
+}
+.float {
+	margin: 0 auto;
+	width:900px;
+}
+.togglebtn {
+	width: 100%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width:1px;
+	border-style:solid;
+	border-color: #424242;
+	background: #E5E5E5;
+	cursor: pointer;
+	height: 35px;
+	line-height: 35px;
+}
+.blue {
+	color: #00AEFF;
+	background: #424242;
+}
+.togglediv {
+	display: none;
+	width: 100%;
+}
